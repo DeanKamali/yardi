@@ -8,6 +8,10 @@ www.facebook.com.
 the results are returned as JSON object.
 The app uses the Undertow web server and Maven as a build tool and is containerized with docker. 
 
+![image](https://user-images.githubusercontent.com/1252959/231427328-20a17bc6-4e7d-48a9-8518-d2e494856678.png)
+
+DNS lookups may return IPv6 addresses depending on your ISP provider. 
+
 ## Usage
 
 To use this image, you can run the following command:
