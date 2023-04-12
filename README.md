@@ -1,5 +1,12 @@
 # Yardi Application
-This application has been created using Maven and runs on Rocky Linux with OpenJDK 1.8.0 and nginx. When you use this image, your application will be served on port 8080, and all traffic coming to port 80 will be redirected to port 8080 via nginx.
+
+This app demonstrates running an API endpoint that resolves the IP addresses of 
+www.google.com, 
+www.amazon.com
+www.facebook.com. 
+
+the results are returned as JSON object.
+The app uses the Undertow web server and Maven as a build tool and is containerized with docker. 
 
 ## Usage
 
