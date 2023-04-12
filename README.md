@@ -5,4 +5,4 @@ This image has been created using Maven and runs on Rocky Linux with OpenJDK 1.8
 
 To use this image, you can run the following command:
 
-```docker run -p 80:80 dkamali/yardi:latest```
+```docker run -d -p 80:80 --name yardi dkamali/yardi:latest```
