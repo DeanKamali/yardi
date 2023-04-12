@@ -12,4 +12,4 @@ The app uses the Undertow web server and Maven as a build tool and is containeri
 
 To use this image, you can run the following command:
 
-```docker run -d -p 80:80 --name yardi deankamali/yardi-app:latest```
+```docker run -d -p 80:80 --name yardi deankamali/yardi:latest```
